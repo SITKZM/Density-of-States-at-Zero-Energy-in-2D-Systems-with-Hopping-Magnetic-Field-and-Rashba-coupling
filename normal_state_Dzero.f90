@@ -135,7 +135,7 @@ contains
     end function DOS_zero
 
     subroutine write_files()
-        integer :: i, j
+        integer :: i
 
         open(newunit=unit_write_result, file=D0_file)
             do i = 1, loop_num1
